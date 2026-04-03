@@ -2,6 +2,7 @@ package day5;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 import java.time.Duration;
 import java.util.ArrayList;
@@ -11,8 +12,8 @@ import java.util.Set;
 import org.openqa.selenium.By;
 
 public class javaPrograms {
-
-	public static void main(String[] args) {
+	@Test
+	public void handleWindows() {
 		
 		WebDriver driver = new ChromeDriver();
 		
