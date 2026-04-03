@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
-public class interview {
+public class InterviewTest {
 	@Test
 	public void loginTest1() {
 		

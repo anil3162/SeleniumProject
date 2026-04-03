@@ -11,7 +11,7 @@ import java.util.Set;
 
 import org.openqa.selenium.By;
 
-public class javaPrograms {
+public class JavaProgramsTest {
 	@Test
 	public void handleWindows() {
 		

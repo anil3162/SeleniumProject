@@ -14,7 +14,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class actionClass {
+public class ActionClassTest {
 	@Test
 	public void handleActions() throws InterruptedException {
 		

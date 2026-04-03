@@ -30,6 +30,8 @@ public class firstTestCase {
 		
 		System.out.println(text.getText());
 		
+		driver.quit();
+		
 		
 		
 			

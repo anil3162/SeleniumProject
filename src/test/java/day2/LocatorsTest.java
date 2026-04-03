@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 
-public class locators {
+public class LocatorsTest {
 	@Test
 	public void getStatus() {
 		
