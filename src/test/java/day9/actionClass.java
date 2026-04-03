@@ -12,10 +12,11 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
 
 public class actionClass {
-
-	public static void main(String[] args) throws InterruptedException {
+	@Test
+	public void handleActions() throws InterruptedException {
 		
 		ChromeOptions options = new ChromeOptions();
 		
