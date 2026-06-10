@@ -1,5 +1,6 @@
 package day10;
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,6 +12,8 @@ public class InterviewTest {
 	public void loginTest1() {
 		
 		WebDriver driver = new FirefoxDriver();
+		
+		driver.get("https://the-internet.herokuapp.com/login");
 		
 		driver.findElement(By.xpath("//input[@id = 'username']")).sendKeys("tomsmith");
 		driver.findElement(By.xpath("//input[@id = 'password']")).sendKeys("SuperSecretPassword!");

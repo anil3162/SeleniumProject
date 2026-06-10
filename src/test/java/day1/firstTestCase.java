@@ -24,8 +24,6 @@ public class firstTestCase {
 		
 		Thread.sleep(Duration.ofSeconds(5));
 		
-		driver.switchTo().alert().accept();
-		
 		WebElement text = driver.findElement(By.xpath("//h4[@class = 'subheader']"));
 		
 		System.out.println(text.getText());
